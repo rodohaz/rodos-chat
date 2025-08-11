@@ -1,0 +1,15 @@
+{
+  "name": "ollama-chat-game",
+  "version": "0.1.0",
+  "description": "Multiplayer turn-based chat rooms with optional Ollama LLM bots (example).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "node-fetch": "^3.4.1",
+    "dotenv": "^16.1.4"
+  }
+}
